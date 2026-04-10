@@ -1,0 +1,107 @@
+span {
+    color: rgb(46, 234, 43);
+    font-size: 30px;
+}
+
+.LogIn {
+    background-image: url(../assets/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height:780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.LogIn h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+
+.LogIn p{
+    font-size: 24px;
+    color: white;
+}
+
+.LogInForm {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px ;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.799);
+    margin: 12px;
+}
+
+.LogInForm label {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.LogInForm input{
+    padding: 12px;
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 15px;
+    margin: auto;
+}
+
+
+label {
+    font-size: 22px;
+    color: white;
+}
+
+.CheckBox {
+    
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     width: 16px;
+    height: 16px;
+    margin: 40px;
+}
+
+
+.CheckBox p{
+    margin-left: 52px;
+    font-size: 18px;
+}
+
+.CheckBox span {
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    padding: 11px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(123, 241, 133);
+    width: 55%;
+    margin: auto;
+}
+
+.SignUp span{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+}

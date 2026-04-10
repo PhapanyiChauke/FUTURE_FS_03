@@ -1,0 +1,107 @@
+
+
+
+.membership-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background: linear-gradient(to right, #ff3c00, #111);
+    height: 100%;
+    color: white;
+
+}
+
+.membership-info {
+    width: 55%;
+}
+
+.membership-info h1 {
+    font-size: 65px;
+    margin-bottom: auto;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+       opacity: 0;
+    }
+
+    100% {
+       opacity: 1;
+    }
+
+}
+
+.typing::after {
+    content: "|";
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
+
+.membership-info p {
+    font-size: 25px;
+    opacity: 0.8;
+
+}
+
+.membership-info button {
+    font-size: 22px;
+    background-color: white;
+    margin-top: auto;
+}
+
+.card-group {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    position: relative;
+    width: 245px;
+    height: 355px;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    justify-content: center;
+
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 60, 0, 0.85);
+    color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay p {
+    font-size: 22.0px;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+    

@@ -1,0 +1,49 @@
+.TermsCondition {
+    background-color: rgba(37, 35, 35, 0.652);
+    height: 900px;
+    width: 55%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 60px;
+    margin: auto;
+    color: white;
+    
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.799);
+}
+
+.TermsCondition h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.TermsCondition p {
+    font-size: 28px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding-top: 35px;
+    
+}
+
+input {
+    height: 17px;
+    width: 17px;
+}
+
+.TermsCondition button {
+    background-color: rgba(255, 255, 255, 0.253);
+    width: 140px;
+    margin: auto;
+    color: white;
+    font-size: 22px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.799);
+    border: 0.2px solid;
+    border-color: white ;
+}
+
+.TermsCondition button:hover {
+    background-color: rgba(65, 2, 65, 0.071);
+}

@@ -1,0 +1,33 @@
+.Navbar {
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+    align-items: center;
+    width: 95%;
+    padding-right: 45px;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.147);
+    border-radius: 50px;
+    height: 50px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 10px 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.Navbar h1{
+    margin-right: auto;
+    padding-left: 45px;
+    color: plum;
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.Navbar h2:hover {
+    color: plum;
+}

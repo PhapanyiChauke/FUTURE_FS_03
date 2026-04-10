@@ -1,0 +1,52 @@
+.ContactUs {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.ContactUs img{
+    background:white;
+    width: 2.5%;
+    height: 2.5%;
+    
+}
+
+.ContactUs-TextImg{
+    padding-left: 150px;
+}
+
+.ContactUs h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.ContactUs p{
+    font-size: 20px;
+}
+
+.Contact-Row {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+
+.hours {
+
+    margin-top: 45px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 12px ;
+    padding-bottom: 15px ;
+    
+}
+
+.hours h3 {
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.hours p {
+    font-size: 25px;
+}

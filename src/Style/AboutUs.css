@@ -1,0 +1,30 @@
+.AboutUs {
+    background-color: white;
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.AboutUs div {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.AboutUs h1{
+    text-align: center;
+}
+
+.AboutUs span {
+    color: red;
+}
+
+.AboutUs h1{
+    font-size: 60px;
+
+}
+
+.AboutUs p {
+    font-size: 22px;
+    color: black;
+}

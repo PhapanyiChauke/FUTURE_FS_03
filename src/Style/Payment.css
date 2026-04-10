@@ -1,0 +1,95 @@
+.payment-container {
+    min-height: 100vh;
+    background: #0f0f0f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+/* TITLE */
+.payment-container h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.payment-container p {
+    font-size: 20px ;
+}
+
+.subtitle {
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+/* SELECTED PLAN BOX */
+.plan-box {
+    background: linear-gradient(135deg, #ff3c00, #111);
+    padding: 20px;
+    border-radius: 15px;
+    width: 360px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 15px rgba(255,60,0,0.5);
+    margin-top: 30px;
+}
+
+.plan-box h3 {
+    font-size: 22px;
+}
+
+.plan-box h2 {
+    margin-bottom: 10px;
+}
+
+/* PAYMENT CARD */
+.payment-card {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    height: 250px;
+}
+
+/* INPUTS */
+.payment-card input {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 93%;
+}
+
+/* ROW INPUTS */
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row input {
+    width: 100%;
+}
+
+/* BUTTON */
+.pay-btn {
+    padding: 12px;
+    background: #ff3c00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    width: 230px;
+    font-size: 20px;
+}
+
+.pay-btn:hover {
+    background: #ff5a1f;
+    transform: scale(1.05);
+}
